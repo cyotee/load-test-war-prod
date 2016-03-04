@@ -6,7 +6,7 @@
     <groupId>de.codecentric.jmeter</groupId>
     <artifactId>jmeter-maven-example</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <name>JMeter Maven Example</name>
     <description>
         Example how to integrate jmeter tests in a maven build and how to automatically 
