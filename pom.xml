@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.codecentric.jmeter</groupId>
-    <artifactId>jmeter-maven-example</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <groupId>co.osa</groupId>
+    <artifactId>load_test_war</artifactId>
+    <version>1.0</version>
     <packaging>war</packaging>
-    <name>JMeter Maven Example</name>
+    <name>Simple WAR for Load Testing</name>
     <description>
         Example how to integrate jmeter tests in a maven build and how to automatically 
         generate graphs from the test results using the jmeter plugins CMDRunner. 
