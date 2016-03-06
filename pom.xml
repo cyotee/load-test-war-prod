@@ -46,7 +46,7 @@
             <id>embedded-jetty</id>
             <properties>
                 <performancetest.webservice.host>${host.local.url}</performancetest.webservice.host>
-                <performancetest.webservice.port>${port.tomcat}</performancetest.webservice.port>
+                <performancetest.webservice.port>${jetty.port}</performancetest.webservice.port>
                 <performancetest.webservice.path>/</performancetest.webservice.path>
                 <performancetest.connectTimeout>1000</performancetest.connectTimeout>
                 <performancetest.responseTimeout>3000</performancetest.responseTimeout>
