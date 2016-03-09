@@ -21,7 +21,7 @@
         <jetty.stopPort>19097</jetty.stopPort>
 
         <host.local.url>localhost</host.local.url>
-        <host.ose.url>loadtest.rhel-ose.vm</host.ose.url>
+        <host.ose.url>load-test-stg.cloudapps-66d5.oslab.opentlc.com</host.ose.url>
         <host.docker.url>rhel-docker.vm</host.docker.url>
 
         <performancetest.webservice.host>localhost</performancetest.webservice.host>
@@ -98,7 +98,7 @@
             </build>
         </profile>
         <profile>
-            <id>local-ose3</id>
+            <id>ose</id>
             <properties>
                 <performancetest.webservice.host>${host.ose.url}</performancetest.webservice.host>
                 <performancetest.webservice.port>${port.ose}</performancetest.webservice.port>
